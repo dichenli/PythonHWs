@@ -1,0 +1,7 @@
+import math
+
+def is_triangular(n):
+    """To tell whether n is a triangular number"""
+    return (math.sqrt(n * 8 + 1) - 1) % 2 == 0
+#the 
+    
